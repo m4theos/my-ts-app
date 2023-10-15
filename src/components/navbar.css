@@ -1,0 +1,23 @@
+.navbar {
+    background-color: brown;
+    display: flex;
+    justify-content: flex-end;
+    height: 75px;
+    margin-inline: auto;
+}
+.user-info {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    border: 3px salmon;
+
+}
+.navigation {
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px salmon;
+}
